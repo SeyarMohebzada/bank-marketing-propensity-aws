@@ -1,0 +1,18 @@
+Variable Name,Role,Type,Description,Missing Values
+age,Feature,Integer,Age of the client,No
+job,Feature,Categorical,"Type of occupation (e.g., 'management', 'retired', 'technician')",No
+marital,Feature,Categorical,"Marital status ('married', 'single', 'divorced')",No
+education,Feature,Categorical,"Education level ('university.degree', 'high.school', etc.)",No
+default,Feature,Binary,Does the client have credit in default?,No
+balance,Feature,Integer,Average yearly balance (measured in Euros),No
+housing,Feature,Binary,Does the client have a housing loan?,No
+loan,Feature,Binary,Does the client have a personal loan?,No
+contact,Feature,Categorical,"Communication type ('cellular', 'telephone')",Yes
+day_of_week,Feature,Date/Cat,Last contact day of the week,No
+month,Feature,Date/Cat,Last contact month of the year,No
+duration,Feature,Integer,Last contact duration in seconds (Benchmark only*),No
+campaign,Feature,Integer,Number of contacts performed during this campaign,No
+pdays,Feature,Integer,Days since client was last contacted (-1 = never),Yes
+previous,Feature,Integer,Number of contacts before this campaign,No
+poutcome,Feature,Categorical,Outcome of the previous marketing campaign,Yes
+y,Target,Binary,Target Variable: Has the client subscribed to a term deposit?,No
