@@ -1,4 +1,4 @@
-🏦 Bank Marketing Propensity: From Legacy to Champion
+Bank Marketing Propensity: From Legacy to Champion
 Hey! This is a project where I took a bank’s "legacy" marketing model and gave it a major upgrade using AWS SageMaker and some smart data science.
 
 The Mission
